@@ -1,0 +1,9 @@
+/* Expand dropdown on focus and hover on desktop */
+@media (min-width: 992px){
+    .navbar .nav-item.dropdown:hover .dropdown-menu,
+    .navbar .nav-item.dropdown:focus-within .dropdown-menu{
+        display: block;
+        margin-top: 0;
+        animation: dropdownSlideIn 0.25s ease-out;
+    }
+}
