@@ -4,3 +4,28 @@
     --bgb: #E6E6FA;
     --secondary: #A87CA0;
 }
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    display: flex;
+    gap: 17px;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-img/ttbg4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.topbar{
+    background-color: var(--bgb);
+    color: var(--text);
+    font-size: 13px;
+}
